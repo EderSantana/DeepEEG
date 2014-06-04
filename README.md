@@ -1,7 +1,7 @@
 #Joint Optimization of Algorithmic Suites for EEG Analysis
 This code was used to generate the results of the paper at EMBC 2014.
 
-##Pre-requisits
+##Prerequisites
 1. numpy
 2. scipy
 3. scikit-learn
