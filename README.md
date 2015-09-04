@@ -1,5 +1,8 @@
 #Joint Optimization of Algorithmic Suites for EEG Analysis
-This code was used to generate the results of the paper at EMBC 2014.
+This code was used to generate the results of the paper at EMBC 2014. The author's copy of the paper can be found at [CNEL's website](http://cnel.ufl.edu/people/people.php?name=eder)
+
+## Abstract
+Abstract— Electroencephalogram (EEG) data analysis algorithms consist of multiple processing steps each with a number of free parameters. A joint optimization methodology can be used as a wrapper to fine-tune these parameters for the patient or application. This approach is inspired by deep learning neural network models, but differs because the processing layers for EEG are heterogeneous with different approaches used for processing space and time. Nonetheless, we treat the processing stages as a neural network and apply backpropagation to jointly optimize the parameters. This approach outperforms previous results on the BCI Competition II - dataset IV; additionally, it outperforms the common spatial patterns (CSP) algorithm on the BCI Competition III dataset IV. In addition, the optimized parameters in the architecture are still interpretable.
 
 ##Prerequisites
 1. numpy
