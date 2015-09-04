@@ -2,7 +2,7 @@
 This code was used to generate the results of the paper at EMBC 2014. The author's copy of the paper can be found at [CNEL's website](http://cnel.ufl.edu/people/people.php?name=eder)
 
 ## Abstract
-Abstract— Electroencephalogram (EEG) data analysis algorithms consist of multiple processing steps each with a number of free parameters. A joint optimization methodology can be used as a wrapper to fine-tune these parameters for the patient or application. This approach is inspired by deep learning neural network models, but differs because the processing layers for EEG are heterogeneous with different approaches used for processing space and time. Nonetheless, we treat the processing stages as a neural network and apply backpropagation to jointly optimize the parameters. This approach outperforms previous results on the BCI Competition II - dataset IV; additionally, it outperforms the common spatial patterns (CSP) algorithm on the BCI Competition III dataset IV. In addition, the optimized parameters in the architecture are still interpretable.
+Electroencephalogram (EEG) data analysis algorithms consist of multiple processing steps each with a number of free parameters. A joint optimization methodology can be used as a wrapper to fine-tune these parameters for the patient or application. This approach is inspired by deep learning neural network models, but differs because the processing layers for EEG are heterogeneous with different approaches used for processing space and time. Nonetheless, we treat the processing stages as a neural network and apply backpropagation to jointly optimize the parameters. This approach outperforms previous results on the BCI Competition II - dataset IV; additionally, it outperforms the common spatial patterns (CSP) algorithm on the BCI Competition III dataset IV. Also, the optimized parameters in the architecture are still interpretable.
 
 ##Prerequisites
 1. numpy
@@ -17,14 +17,14 @@ They are all available for pip install. We also used the LogisticRegression clas
 The dataset used here was downloaded from http://www.bbci.de/competition/ii/ .
 
 ##Running the experiments
-We suggesting running the experiments at an IPython section:  
+We suggest running the experiments at an IPython section:  
 `run piecewise_deep_csp`  
 To visualize the temporal projection, run  
 `plot(avg_v.get_value())`
 
-##Plataform
-We run the experiments reported on the paper on a MacBook Air OS 10.8 with
+##Platform
+We ran the experiments reported on the paper using a MacBook Air OS 10.8 with
 1. numpy 1.6
 2. scipy 0.13
 3. scikit-lern 0.13
-4. We had no user defined theano flags. Most importantly, we this means that the experiments run on CPU with float64 precision.
+4. We had no user defined theano flags. Most importantly, this means that the experiments ran on CPU with float64 precision.
